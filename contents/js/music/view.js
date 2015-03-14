@@ -16,7 +16,7 @@ var MusicView = React.createClass({
                     <h3 className="musicAuthor">
                         {this.state.album.author}
                     </h3>
-                    <img src={this.state.album.thumbnail}></img> <br/> 
+                    <img src={this.state.album.thumbnail} width="60"></img> <br/> 
                     {this.state.album.summary} <br/>
                     <b>Released on:</b> {this.state.album.rlsdate} <br/> 
                     <b>Genre:</b> {this.state.album.genre} <br/> 
