@@ -1,4 +1,4 @@
 ---
-title: Yelp
+title: Metacritic
 template: index.jade
 ---
