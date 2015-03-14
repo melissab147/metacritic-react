@@ -15,7 +15,7 @@ The site can now be accessed at [http://localhost:8080/metacritic-react](http://
 
     $ git subtree push --prefix build origin gh-pages
 
-Then, the page can be accessed at `http://[your-github-account-id].github.io/ted-react`
+Then, the page can be accessed at `http://[your-github-account-id].github.io/metacritic-react`
 
 # Live Site
 
