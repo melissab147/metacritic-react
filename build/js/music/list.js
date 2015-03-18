@@ -8,10 +8,15 @@ var MusicList = React.createClass({displayName: 'MusicList',
         $.ajax({
             url: this.props.url,
             dataType: 'json',
+            headers: {
+                "X-Mashape-Key": "1t37z6ZtlvmshEIKo41r9f2yjIh1p14TpsnjsnnL0F5emFdSPa",
+                "Accept": "application/json"
+            },
             success: function(data) {
                 this.setState({
-                    data: data
+                    data: data.results
                 });
+                // console.log(data, data.restatus, data.headers, data.body)            
             }.bind(this),
             error: function(xhr, status, err) {
                 console.error(this.props.url, status, err.toString());
@@ -38,7 +43,7 @@ var MusicList = React.createClass({displayName: 'MusicList',
         return (
             <div className="musicPage">
                 <div className="musicList six columns">
-                    <h4> New & Upcoming Albums </h4> {music}
+                    <h4> Upcoming Albums </h4> {music}
                 </div>
                 <div className="musicView six columns">
                     <MusicView ref="musicView"/>

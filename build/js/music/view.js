@@ -18,7 +18,7 @@ var MusicView = React.createClass({
                     </h3>
                     <img src={this.state.album.thumbnail} width="60"></img> <br/> 
                     {this.state.album.summary} <br/>
-                    <b>Released on:</b> {this.state.album.rlsdate} <br/> 
+                    <b>Release date:</b> {this.state.album.rlsdate} <br/> 
                     <b>Genre:</b> {this.state.album.genre} <br/> 
                     <b>Score:</b> {this.state.album.score} <br/> 
                     <b>Link:</b> <a href={this.state.album.url}>{this.state.album.url}</a> <br/> 
