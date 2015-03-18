@@ -1,13 +1,13 @@
 $( "#movies" ).on( "click", function( event ) {
     React.render(
-        <MovieList url='data/movies.json.data'/>,
+        <MovieList url='https://byroredux-metacritic.p.mashape.com/movie-list/coming-soon'/>,
         document.getElementById('content')
     )
 })
 
 $( "#music" ).on( "click", function( event ) {
     React.render(
-        <MusicList url='data/music.json.data'/>,
+        <MusicList url='https://byroredux-metacritic.p.mashape.com/album-list/coming-soon'/>,
         document.getElementById('content')
     )
 })
