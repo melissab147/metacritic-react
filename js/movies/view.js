@@ -15,7 +15,7 @@ var MovieView = React.createClass({
                     </h2>
                     <img src={this.state.movie.thumbnail}></img> <br/> 
                     {this.state.movie.summary} <a href={this.state.movie.url}>continue</a> <br/>
-                    <b>Released on:</b> {this.state.movie.rlsdate} <br/> 
+                    <b>Release date:</b> {this.state.movie.rlsdate} <br/> 
                     <b>Rating:</b> {this.state.movie.rating} <br/> 
                     <b>Cast:</b> {this.state.movie.cast} <br/> 
                     <b>Score:</b> {this.state.movie.score} <br/> 
