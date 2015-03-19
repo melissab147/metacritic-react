@@ -7,7 +7,7 @@ $( "#movies" ).on( "click", function( event ) {
 
 $( "#music" ).on( "click", function( event ) {
     React.render(
-        <MusicList url='https://byroredux-metacritic.p.mashape.com/album-list/coming-soon'/>,
+        <MusicList url='https://byroredux-metacritic.p.mashape.com/album-list/new-releases/date'/>,
         document.getElementById('content')
     )
 })
